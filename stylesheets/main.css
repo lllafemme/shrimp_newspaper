@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background: black;
+  overflow: hidden;
+
+}
+
+section.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+a.content {
+  top: 20px;
+  position: relative;
+  font-family: 'HELVETICA', monospace;
+  color: white;
+  font-size: 5vw;
+  font-weight: bold;
+  margin: 1vw;
+  text-decoration: none;
+
+
+}
